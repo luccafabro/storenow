@@ -55,3 +55,4 @@ Funcionalidades:
 - Inclusão e download posterior dos arquivos anexados pelos usuário
 - Tela de dash com informações dinâmicas relacionadas ao usuário
 - Filtro por nome de arquivo e ordenação dinâmica de arquivos
+- Todos os alertas funcionando
