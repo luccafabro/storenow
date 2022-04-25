@@ -1,4 +1,4 @@
-import { StyleSheet, View, SafeAreaView } from "react-native";
+import { StyleSheet, View, SafeAreaView, FlatList } from "react-native";
 import Logo from "../components/Logo";
 import Slogan from "../components/Slogan";
 import DemoArchive from "../components/DemoArchive";
@@ -16,9 +16,11 @@ export default function Initial(props) {
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
         <Logo />
-        {slogans.map((data, i) => {
-          return <Slogan key={i} text={data} />;
-        })}
+        <FlatList
+          data={slogans}
+          renderItem={({item}) => <Slogan text={item} /> }
+          keyExtractor={(item, index) => index}
+        />
         <DemoArchive />
         <TouchableOpacity
           onPress={() => {
