@@ -25,22 +25,14 @@ Finalizar
 - Tela Cadastro
 - Tela Planos
 
-Começar
-- Tela Arquivos
-- Tela Dash
-- Tela Perfil
-
 
 Navigation:
 
 - Telas Inicias
-- Telas Usuário
-
-Alertas:
-
-- Introdução aos alertas (Por exemplo: após submit)
 
 ### AA2
+
+Refatoração do código
 
 Layout:
 
