@@ -13,6 +13,12 @@ Não está nada definido mas talvez utilize a api da aws para armazenamento dos 
 ## Não será desenvolvido no projeto
 Não pretendo controlar o plano que o usuário está utilizando, e não será será desenvolvido telas relacionadas ao upgrade do plano.
 
+## Problemas
+
+Não estou conseguindo retirar erro de importação assíncrona das Fontes, pesquisei muito e a solução que mais seria possível seria a seguinte, porém seria um downgrade na versão do expo, e não acho isso legal.
+
+https://pt.stackoverflow.com/questions/460128/problema-com-fontes-no-react-native
+
 ## Cronograma
 
 ### AA1
